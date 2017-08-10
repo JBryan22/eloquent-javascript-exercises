@@ -65,4 +65,14 @@ var deepCompare = function(x, y) {
     } else {
 		return false;
     }
-} 
+}
+
+// CHAPTER 5 EXCERCISES
+
+//Flattening
+
+var arrays = [[1, 2, 3], [4, 5], [6]];
+
+arrays.reduce(function(total, ele){
+    return total.concat(ele);
+});
